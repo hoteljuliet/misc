@@ -1,0 +1,10 @@
+# Rate Limiting - performed per request IP
+# See https://raw.githubusercontent.com/vladimir-bukhtoyarov/bucket4j/master/doc-pages/basic-usage.md
+# Defaults to 10 requests per second per client IP address with a 50 call overdraft. the overdraft can be used if
+# average is a little bit higher than 10 call/sec on short time period.
+rate.limit.overdraft=50
+rate.limit.tokens=10
+rate.limit.seconds=1
+
+
+
